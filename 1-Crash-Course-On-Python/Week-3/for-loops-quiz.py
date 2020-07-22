@@ -18,3 +18,11 @@ for n in range(0,9):
 # 3. Write a script that prints the first 10 cube numbers (x**3), starting with x=1 and ending with x=10.
 for x in range(1,11):
   print(x**3)
+
+'''
+4. 
+Write a script that prints the multiples of 7 between 0 and 100. Print one multiple per line 
+and avoid printing any numbers that aren't multiples of 7. Remember that 0 is also a multiple of 7
+'''
+for i in range(0, 101):
+    print(i * 7)
