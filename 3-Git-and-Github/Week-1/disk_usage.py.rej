@@ -1,0 +1,17 @@
+--- disk_usage_original.py	2020-08-13 15:54:19.736083200 -0700
++++ disk_usage_fixed.py	2020-08-13 15:53:49.970628700 -0700
+@@ -1,5 +1,5 @@
+ import shutil
+-
++import sys
+ def check_disk_usage(disk, min_absolute, min_percent):
+     '''Returns True if there is enough disk space, false otherwise'''
+     du = shutil.disk_usage(disk)
+@@ -11,6 +11,6 @@
+ 
+ if not check_disk_usage('/', 2*2**30, 10):
+     print('ERROR: not enough disk space')
+-    return 1
++    sys.exit(1)
+ print('Everything ok')
+-return 0+sys.exit(0)
