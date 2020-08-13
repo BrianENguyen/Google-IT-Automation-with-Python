@@ -1,0 +1,7 @@
+Jul 6 14:01:23 computer.name CRON[2422]: USER (good_user)
+Jul 6 14:02:11 computer.name jam_tag=pism[4322]: USER (good_user)
+Jul 6 14:03:45 computer.name CRON[2422]: USER (good_user)
+Jul 6 14:05:33 computer.name CRON[2422]: USER (good_user)
+Jul 6 14:06:29 computer.name jam_tag=pism[4322]: USER (good_user)
+Jul 6 14:07:59 computer.name jam_tag=pism[4322]: USER (good_user)
+Jul 6 14:08:08 computer.name CRON[2422]: USER (naughty_user)
